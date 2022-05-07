@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <title>140Flexbox.html</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        #container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        /* #container div{
+            border: 1px solid red;
+
+        } */
+        .nevigation{
+            flex-basis: 20%;
+            flex-grow: 0;
+            flex-shrink: 1;
+        }
+        .content{
+            flex-basis: 80%;
+            flex-grow: 1;
+            flex-shrink: 0;
+        }
+
+        .header{
+            flex-basis: 100%;
+            flex-grow: 0;
+            flex-shrink: 0;
+            background-color: #f5f5f5;
+            color: #555;
+            border-bottom: 2px solid black;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+   <div id="container">
+   <div class="header">Header</div>
+    <div class="nevigation">Nevigation</div>
+       <div class="content">
+           <h1>Hello World</h1>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, assumenda. Illo perferendis incidunt quaerat at dolores iusto voluptatibus numquam, doloribus qui voluptas ad! Explicabo blanditiis in dignissimos eum ratione atque.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, assumenda. Illo perferendis incidunt quaerat at dolores iusto voluptatibus numquam, doloribus qui voluptas ad! Explicabo blanditiis in dignissimos eum ratione atque.</p>
+
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, assumenda. Illo perferendis incidunt quaerat at dolores iusto voluptatibus numquam, doloribus qui voluptas ad! Explicabo blanditiis in dignissimos eum ratione atque.</p>        </div>
+       
+   </div> 
+</body>
+</html>

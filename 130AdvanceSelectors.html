@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Document</title>
+<style>
+    #parent > .box{
+        height: 20px;
+        border: 1px solid blue;
+    }
+
+    #parent .box + .box{
+        background-color: red;
+    }
+
+    #parent .box ~ .box{
+        background-color: black;
+    }
+</style>
+</head>
+<body>
+    <div id="parent">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

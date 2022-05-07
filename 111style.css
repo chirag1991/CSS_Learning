@@ -1,0 +1,24 @@
+
+body{
+    background-color:aqua;
+}
+
+#box{
+   width: 200px; 
+   height: 200px;
+   border:2px solid black;
+   background-image: url("../HTML/Images/computer.jpg");
+   background-position: center center;
+   background-size: cover;
+   border-radius: 0 50% 0;
+   box-shadow: 2px 2px inset red;
+            /* X   Y    Blur  Color */
+}
+
+.floating-image{
+  float: right;  
+  margin: 10px;
+  border: 1px solid black; 
+  box-shadow: 0 0 5px black;
+  
+}
